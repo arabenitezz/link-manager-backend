@@ -5,8 +5,7 @@
     "express": "^4.21.2",
     "mongoose": "^8.9.2"
   },
-
-    "scripts": {
-      "start": "node server.js"
-    }
+  "scripts": {
+    "start": "node server.js"
   }
+}

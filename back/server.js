@@ -9,12 +9,35 @@ const commentRoutes = require('./routes/comments');
 const app = express();
 
 // Middlewares
-app.use(cors());
+app.use(cors({
+  origin: [
+    'https://link-manager-vanilla-js.vercel.app',
+    'http://127.0.0.1:5500',
+    'http://localhost:5500',
+    'http://localhost:3000'
+  ],
+  methods: ['GET', 'POST', 'PATCH', 'DELETE'],
+  credentials: true,
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
+
 app.use(express.json());
+
+// Middleware para logging de peticiones
+app.use((req, res, next) => {
+  console.log(`${req.method} ${req.path}`);
+  next();
+});
 
 // Rutas
 app.use('/api/links', linkRoutes);
 app.use('/api/comments', commentRoutes);
+
+// Manejador de errores global
+app.use((err, req, res, next) => {
+  console.error('Error:', err);
+  res.status(500).json({ error: 'Error interno del servidor' });
+});
 
 // Conexión a MongoDB
 mongoose.connect(process.env.MONGO_URI)

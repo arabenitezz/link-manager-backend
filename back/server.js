@@ -13,7 +13,7 @@ app.use(cors({
   origin: [
     'https://link-manager-vanilla-js.vercel.app',
     'https://link-manager-vue.vercel.app',
-    'http://localhost:5173',
+    'https://link-manager-svelte.vercel.app',
     'http://localhost:3000'
   ],
   methods: ['GET', 'POST', 'PATCH', 'DELETE'],

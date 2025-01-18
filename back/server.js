@@ -19,7 +19,7 @@ app.use(cors({
   ],
   methods: ['GET', 'POST', 'PATCH', 'DELETE'],
   credentials: true,
-  allowedHeaders: ['Content-Type', 'Authorization']
+  allowedHeaders: ['Content-Type', 'Authorization','X-Requested-With', 'Accept']
 }));
 
 app.use(express.json());

@@ -14,7 +14,7 @@ app.use(cors({
     'https://link-manager-vanilla-js.vercel.app',
     'https://link-manager-vue.vercel.app',
     'https://link-manager-svelte.vercel.app',
-    'http://localhost:3000'
+    'http://localhost:5176'
   ],
   methods: ['GET', 'POST', 'PATCH', 'DELETE'],
   credentials: true,

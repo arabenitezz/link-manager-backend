@@ -16,7 +16,7 @@ app.use(cors({
     'https://link-manager-svelte.vercel.app',
     'https://link-manager-alpine-js.vercel.app',
     'https://link-manager-react.vercel.app',
-    'https://link-manager-angular.netlify.app/'
+    'https://link-manager-angular.netlify.app'
   ],
   methods: ['GET', 'POST', 'PATCH', 'DELETE'],
   credentials: true,

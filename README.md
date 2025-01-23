@@ -2,6 +2,15 @@
 
 Backend API para una aplicación de compartir enlaces con sistema de votación y comentarios.
 
+## Frontend Implementations
+Este backend es compatible con las siguientes implementaciones frontend:
+1. [Link Sharing React](https://github.com/arabenitezz/link-manager-react) - Implementación en React
+2. [Link Sharing Vue](https://github.com/arabenitezz/link-manager-vue) - Implementación en Vue.js
+3. [Link Sharing Angular](https://github.com/arabenitezz/link-manager-angular) - Implementación en Angular
+4. [Link Sharing Svelte](https://github.com/arabenitezz/link-manager-svelte) - Implementación en Svelte
+5. [Link Sharing Vanilla js](https://github.com/arabenitezz/link-manager-vanilla-js) - Implementación en Vanilla.js
+6. [Link Sharing Alpine](https://github.com/arabenitezz/link-manager-alpine.js) - Implementación en Alpine
+
 ## Estructura del Proyecto
 ```
 back/
@@ -16,15 +25,6 @@ back/
 ├── package.json
 └── server.js
 ```
-
-## Frontend Implementations
-Este backend es compatible con las siguientes implementaciones frontend:
-1. [Link Sharing React](https://github.com/arabenitezz/link-manager-react) - Implementación en React
-2. [Link Sharing Vue](https://github.com/arabenitezz/link-manager-vue) - Implementación en Vue.js
-3. [Link Sharing Angular](https://github.com/arabenitezz/link-manager-angular) - Implementación en Angular
-4. [Link Sharing Svelte](https://github.com/arabenitezz/link-manager-svelte) - Implementación en Svelte
-5. [Link Sharing Vanilla js](https://github.com/arabenitezz/link-manager-vanilla-js) - Implementación en Vanilla.js
-6. [Link Sharing Alpine](https://github.com/arabenitezz/link-manager-alpine.js) - Implementación en Alpine
 
 ## Instalación
 
